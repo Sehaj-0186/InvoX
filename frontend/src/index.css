@@ -22,3 +22,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+

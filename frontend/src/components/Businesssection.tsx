@@ -3,7 +3,7 @@ import BusinessCard from "./Businesscard"
 const Businesssection = () => {
   return (
     <>
-    <div className="flex justify-between bg-zinc-950 mt-32 w-[90%] mx-auto py-20 border-t-[1px] border-orange-400">
+    <div className="flex justify-between bg-zinc-950 mt-32 w-[90%] mx-auto pt-40 pb-20 border-t-[1px] border-orange-400">
         <div className="flex-col w-[50%]">
             <div className="text-3xl font-gradient-to-r from-orange-400 to-orange-200 font-extrabold font-montserrat">Establish a Business</div>
     <div className="mt-6">

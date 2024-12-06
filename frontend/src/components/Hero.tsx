@@ -3,10 +3,10 @@ import { TextHoverEffect } from "./ui/text-hover-effect"
 
 const Hero = () => {
   return (
-    <div className="w-[100%] bg-zinc-950 h-fit border-t-[1px] border-orange-400 ">
+    <div className="w-[100%] bg-zinc-950 h-fit py-10 ">
      
         <div className="flex justify-center items-center">
-        <div className=" text-[19rem] justify-self-center font-title font-extrabold text-orange-500 outline-white">X</div>
+        <div className=" text-[18rem] justify-self-center font-title font-extrabold text-orange-500  outline-white">X</div>
         
         <div className=" text-8xl absolute justify-self-center font-title font-extrabold z-20  items-center tracking-tighter">
            <TextHoverEffect text="INVO" />

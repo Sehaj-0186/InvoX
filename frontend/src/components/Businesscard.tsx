@@ -6,6 +6,8 @@ const BusinessCard: React.FC = () => {
   const [businessName, setBusinessName] = useState('');
   const [businessType, setBusinessType] = useState('');
   const [businessEmail, setBusinessEmail] = useState('');
+  const [businessDescription, setBusinessDescription] = useState('');
+
   const [registrationNumber, setRegistrationNumber] = useState('');
   const [walletAddress, setWalletAddress] = useState('');
   const [isFeePaid, setIsFeePaid] = useState(false);
@@ -40,7 +42,7 @@ const BusinessCard: React.FC = () => {
   };
 
   const goToDashboard = () => {
-    navigate('/dashboardbusiness'); // Redirect to the customer dashboard
+    navigate(`/dashboardbusiness`); // Redirect to the customer dashboard
   };
 
   return (
@@ -93,6 +95,17 @@ const BusinessCard: React.FC = () => {
             placeholder="Enter registration number"
           />
         </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium mb-1">Business Description</label>
+          <input
+            type="textarea"
+            value={businessDescription}
+            onChange={(e) => setBusinessDescription(e.target.value)}
+            className="w-full border rounded  p-2"
+            placeholder="Enter business Description"
+          />
+        </div>
+
       </div>
 
       {/* Actions Section */}

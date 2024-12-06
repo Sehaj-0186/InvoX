@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@metamask/providers": "^18.2.0",
     "@react-three/drei": "^9.119.0",
     "@react-three/fiber": "^8.17.10",
+    "@requestnetwork/request-client.js": "^0.52.0",
+    "@tsparticles/engine": "^3.7.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.7.1",
     "clsx": "^2.1.1",
     "ethers": "^6.13.4",
     "framer-motion": "^11.13.1",
@@ -25,8 +31,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
-    "@types/react": "^18.3.13",
-    "@types/react-dom": "^18.3.1",
+    "@types/react": "^18.3.14",
+    "@types/react-dom": "^18.3.2",
     "@types/web3": "^1.2.2",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
